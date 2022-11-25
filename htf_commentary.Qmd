@@ -1,0 +1,54 @@
+---
+title: "Untitled"
+format: html
+---
+
+# Machine learning methods reveal processes affecting abundance at multiple scales. A Commentary on 'Global and regional drivers of abundance patterns in the hart's tongue fern complex (Aspleniaceae)'
+
+We live in an era characterized by unprecedented levels of human-driven extinction.
+The only way to mitigate this damage is to simultaneously document biodiversity while determining the processes that generate it.
+This endeavour is extremely difficult first due to the large amounts of data required and second because of the complex and intertwined nature of ecology; we can rarely ascribe one predominant effect that determines the distribution of species.
+In this issue of *Annals of Botany*, @Heo2022 combine dense sampling on a global scale with recently developed machine learning methods to gain insight into the processes governing abundance of the Hart's tongue fern.
+Abundance is a key parameter for understanding the distribution of biodiversity, as it governs the existence of local populations and ultimately species; gaining a better understanding of the processes governing abundance is critical to conserving biodiversity in the Anthropocene.
+
+The Hart's Tongue Fern (HTF) is a widely distributed fern with three major centers, in NE America, Europe, and E Asia.
+It shows different patterns of abundance in each, with patchily distributed populations of smaller size in NE America, dense populations in Europe, and __ in E Asia.
+Furthermore, these have been relatively well collected, with thousands of occurrence records available in GBIF.
+Thus, HTF is an excellent system for understanding the processes affecting abundance of species on a global as well as local level.
+
+<!-- Integration across scales -->
+
+One remarkable aspect of the study of Heo et. al is their integration across global to local scales.
+It is likely that processes occurring simultaneously at multiple scales interact to determine abundance.
+At broad (global) scales, climate change operates to shift species distributions primarily along latitudinal gradients.
+In relatively recent time changes in land use by humans also operates to influence species distributions at large scales.
+Within these larger forces, processes acting at the local scale such as distribution of soil type and local climate further influence species distribution and abundance.
+The complex and interwoven nature of these processes has long been an impediment to understanding how they work in practice.
+However, Heo et al. were able to use a type of powerful machine learning, boosted regression tree (BRT) models, in combination with their dense sampling to overcome this difficulty.
+
+<!-- A different paradigm for understanding ecology -->
+
+Mathematical models have long been a key tool for understanding ecology.
+Classic models in ecology start from an inference of how a response variable is thought to be related to one or more independent variables, which may or may not have interactions.
+While such classic models are straightforward to interpret, they are inherently limited in complexity and often have relatively low explanatory power.
+This is likely due to the extremely complex nature of ecology, which includes many interacting processes across multiple scales.
+Machine learning approaches, on the other hand, do not make assumptions about the distribution of variables or the shape and number of their interactions.
+Rather, they __.
+
+<!-- Different continents, different processes -->
+
+One clear factor influencing abundance identified by @Heo2022 was population isolation (measured as distance to the nearest other population), which was the most important variable across all four regions.
+Interestingly, population isolation was relatively less important in North America, where populations tend to be restricted to scattered microhabitats, compared to Europe or Asia, where populations tend to be more contiguous.
+It could be that distances between North American populations is greater than the typical dispersal ability of HTF.
+In contrast, populations in Europe and Asia may often be subject to the "rescue effect", whereby propagules from neighboring populations are able to replenish a low-abundance population otherwise in danger of extirpation.
+
+Furthermore, @Heo2022 found that the next most important variables after population isolation varied across regions: precipitation seasonality was most important in Europe, whereas precipitation heterogeneity and past climate change were most important in Asia and North America, respectively.
+Again, these differences make sense in light of what is known about the geographic context of each area.
+
+
+
+<!-- Implications for conservation -->
+
+<!-- Caveats -->
+
+<!-- Conclusion -->
