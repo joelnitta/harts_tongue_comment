@@ -1,19 +1,28 @@
 ---
-title: "Untitled"
-format: html
+title: "Machine learning methods reveal processes affecting abundance at multiple scales: A commentary on 'Global and regional drivers of abundance patterns in the hart's tongue fern complex (Aspleniaceae)'"
+bibliography: references.yaml
+csl: annals-of-botany.csl
+crossref: 
+  fig-title: Fig.
+  tbl-title: Table
+  fig-prefix: Fig.
+  tbl-prefix: Table
+format:
+  docx:
+    reference-doc: custom-reference.docx
 ---
 
-# Machine learning methods reveal processes affecting abundance at multiple scales: A commentary on 'Global and regional drivers of abundance patterns in the hart's tongue fern complex (Aspleniaceae)'
+We live in an era of unprecedented human-driven extinction and ecological disruption.
+Any conservation policy seeking to mitigate this damage depends on documenting biodiversity while at the same time determining the processes that generate it.
+This endeavour is extremely difficult due to the large amounts of data required and because of the complex and intertwined nature of ecology; we can rarely ascribe one predominant effect that determines the distribution of species.
+In this issue of *Annals of Botany*, @Heo2022 combine dense sampling on a global scale with recently developed machine learning methods to gain insight into the processes governing abundance in *Asplenium scolopendrium* L., or Hart's Tongue Fern (HTF).
+Abundance is a key parameter for understanding the distribution of biodiversity, as it governs the existence of local populations and ultimately species, and gaining a better understanding of the processes governing abundance is critical to conserving biodiversity in the Anthropocene.
 
-We live in an era characterized by unprecedented levels of human-driven extinction.
-The only way to mitigate this damage is to simultaneously document biodiversity while determining the processes that generate it.
-This endeavour is extremely difficult first due to the large amounts of data required and second because of the complex and intertwined nature of ecology; we can rarely ascribe one predominant effect that determines the distribution of species.
-In this issue of *Annals of Botany*, @Heo2022 combine dense sampling on a global scale with recently developed machine learning methods to gain insight into the processes governing abundance of the Hart's tongue fern.
-Abundance is a key parameter for understanding the distribution of biodiversity, as it governs the existence of local populations and ultimately species; gaining a better understanding of the processes governing abundance is critical to conserving biodiversity in the Anthropocene.
-
-*Asplenium scolopendrium*, or Hart's Tongue Fern (HTF), is a widely distributed fern species complex with three major centers, in North America, Europe, and Asia.
-It shows different patterns of abundance in each, with patchily distributed populations of smaller size in North America, dense populations in Europe, and __ in Asia.
-Furthermore, these have been relatively well collected, with thousands of occurrence records available in GBIF.
+HTF is a widely distributed fern species complex with three major centers, in Europe, North America, and Asia.
+Populations in each area belong to four intraspecific taxa: *A. scolopendrium* subsp. *scolopendrium* and *A. scolopendrium* subsp. *antri-jovis* in Europe, *A. scolopendrium* var. *americanum* and *A. scolopendrium* var. *lindenii* in North America, and *A. komarovii* in East Asia.
+HTF shows different patterns of abundance in region, with patchily distributed, smaller populations in North America, more continuously distributed populations in Europe, and moderate population densities in Asia.
+A much smaller population center in New Zealand is likely due to recent introduction and naturalization.
+HTF has been well collected and documented, with thousands of occurrence records available in GBIF.
 Thus, HTF is an excellent system for understanding the processes affecting abundance of species on a global as well as local level.
 
 <!-- Integration across scales -->
@@ -22,34 +31,56 @@ It is likely that processes occurring simultaneously at multiple scales interact
 At broad (global) scales, climate change operates to shift species distributions primarily along latitudinal gradients.
 Changes in land use by humans also operates to influence species distributions at large scales.
 Within these larger forces, processes acting at the regional to local scale such as distribution of soil type and local climate further influence species distribution and abundance.
-The complex and interwoven nature of these processes has long been an impediment to understanding how they work in practice.
-However, Heo et al. were able to use a type of powerful machine learning, boosted regression tree (BRT) models, in combination with their dense sampling to overcome this difficulty.
+The complex and interwoven nature of these processes has long been an impediment to understanding how they function in detail.
+However, @Heo2022 were able to use a type of powerful machine learning, boosted regression tree (BRT) models, in combination with their dense sampling to overcome this difficulty.
 
 <!-- A different paradigm for understanding ecology -->
 
 Mathematical models have long been a key tool for understanding ecology.
-Classic models in ecology start by defining a reasonable model for a given phenomenon, then seek to fit the parameters of the model to the data.
+Classic models in ecology typically start by defining a reasonable model for a given phenomenon, then seek to fit the parameters of the model to the data.
 While such classic models are straightforward to interpret, they often have relatively low explanatory power.
 This is due to the extremely complex nature of ecology, which includes many interacting processes across multiple scales.
 Machine learning approaches, on the other hand, do not start from a particular model; rather, they attempt to learn the relationship between predictors and response variables via iterative algorithms.
-While this is a promising approach for understanding ecological processes, it has not been widely applied, perhaps due to the dominant statistical paradigm of ecology that has focused on explanation rather than prediction.
-@Heo2022 used a type of machine learning called boosted regression trees (BRT), which combine a large number of simple regression trees to obtain a robust prediction.
+While this is a promising approach for understanding ecological processes, it has not been widely applied in ecology, perhaps due to the dominant statistical paradigm that has focused on explanation rather than prediction.
+@Heo2022 used a type of machine learning called boosted regression trees (BRT), which combine a large number of simple regression trees to obtain a robust prediction [@Elith2008].
 Their BRT model included variables at both global (e.g., magnitude of past climate change, anthropogenic impacts) and regional (topography, edaphic conditions, local climate) scales.
 The BRT model is well suited such an analysis including interacting variables at multiple scales as it is non-parametric and insensitive to outliers; furthermore, any potential interactions are accounted for during the learning process and do not need to be specified *a-priori*.
+Since HTF was already known to show different distribution patterns between regions (Europe, North America, and Asia), @Heo2022 applied the BRT model separately to each region and compared the results.
 
 <!-- Different continents, different processes -->
 
+On a global scale, @Heo2022 find that HTF is mostly restricted to a single biome, temperate broadleaf and mixed forests.
+Furthermore, their niche modeling analysis showed that this species complex has likely shifted its range from lower to higher latitudes since the last glacial maximum (ca. 21ka).
+While these common global processes, their BRT model revealed processes operating at finer scales that in some cases differ between regions.
+
 One clear factor influencing abundance identified by @Heo2022 was population isolation (measured as distance to the nearest other population), which was the most important variable across all four regions.
-Interestingly, population isolation was relatively less important in North America, where populations tend to be restricted to scattered microhabitats, compared to Europe or Asia, where populations tend to be more contiguous.
-It could be that distances between North American populations is greater than the typical dispersal ability of HTF.
-In contrast, populations in Europe and Asia may often be subject to the "rescue effect", whereby propagules from neighboring populations are able to replenish a low-abundance population otherwise in danger of extirpation.
+However, population isolation was relatively less important in North America, where populations tend to be restricted to scattered microhabitats, compared to Europe or Asia, where populations tend to be more contiguous.
+It could be that distances between North American populations are greater than the typical dispersal ability of HTF.
+In contrast, populations in Europe and Asia may be subject to the "rescue effect", whereby propagules from neighboring populations are able to replenish a low-abundance population otherwise in danger of extirpation.
 
 Furthermore, @Heo2022 found that the next most important variables after population isolation varied across regions: precipitation seasonality was most important in Europe, whereas precipitation heterogeneity and past climate change were most important in Asia and North America, respectively.
 Again, these differences make sense in light of what is known about the geographic context of each area.
-Hotspots of HTF abundance in Asia are often on mountainous islands with steep climatic gradients, whereas the flora of North America has been strongly affected by movement of glaciers.
+In Europe, dense populations of HTF (hotspots) occur in the west including the British Isles, which have an oceanic climate.
+In contrast, HTF hotspots in Asia are often on mountainous islands with steep climatic gradients, which is reflected in the importance of precipitation heterogeneity in the BRT model for that area.
+The flora of North America has been strongly affected by movement of glaciers, and many extant HTF populations there are relictual ones that have persisted in concave karst landscapes with protected microclimates.
+This is consistent with both a relatively low contribution of population isolation and a greater contribution of past climate change observed in the BRT model for North America.
 
 <!-- Implications for conservation -->
 
+@Heo2022 further interpreted the significance of their findings in the context of the conservation of this species complex.
+In particular, the results of their fine-scale case study of population change over time in North America provide strong evidence that conservation policies have a direct impact on survival of HTF.
+In paired populations at similar latitude with similar environments, those outside of conservation zones showed decreases in abundance over time, whereas those in protected areas increased.
+While many studies on the impact of climate change on biodiversity are overwhelmingly negative, this highlights the clear benefits to be gained from establishment of protected areas.
+
 <!-- Caveats -->
 
+While the BRT model is very flexible and well suited to complex ecological analysis, it does not account for spatial autocorrelation, a common phenomenon that can lead to biased models.
+Spatial autocorrelation is the tendency for data points that are closer together to be more similar, and violates the assumption of independent sampling [@Legendre1993].
+There are several methods to detect and account for spatial autocorrelation, including those that can be applied to BRT models [@Crase2012], but they were not used in this study.
+Therefore, it is unclear to what extent the results were influenced by the spatial distribution of the data.
+Future studies using the BRT model should explicitly check for spatial autocorrelation and handle it appropriately if detected.
+
 <!-- Conclusion -->
+The study of @Heo2022 is an clear example of the insights that can be gained from the application of machine learning to large biodiversity datasets.
+Such investigations will surely become both more insightful as datasets and analytical methods grow.
+Indeed, they are needed more urgently than ever before as life on this planet is increasingly confronted with the effects of unchecked economic growth that has come at the cost of the environment.
