@@ -1,0 +1,113 @@
+references:
+- id: Crase2012
+  accessed:
+  - year: 2022
+    month: 12
+    day: 7
+  author:
+  - family: Crase
+    given: Beth
+  - family: Liedloff
+    given: Adam C.
+  - family: Wintle
+    given: Brendan A.
+  citation-key: Crase2012
+  container-title: Ecography
+  container-title-short: Ecography
+  DOI: 10.1111/j.1600-0587.2011.07138.x
+  ISSN: 09067590
+  issue: '10'
+  issued:
+  - year: 2012
+    month: 10
+  language: en
+  page: 879-888
+  source: DOI.org (Crossref)
+  title: A new method for dealing with residual spatial autocorrelation in species
+    distribution models
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2011.07138.x
+  volume: '35'
+- id: Elith2008
+  accessed:
+  - year: 2022
+    month: 12
+    day: 7
+  author:
+  - family: Elith
+    given: J.
+  - family: Leathwick
+    given: J. R.
+  - family: Hastie
+    given: T.
+  citation-key: Elith2008
+  container-title: Journal of Animal Ecology
+  container-title-short: J Anim Ecology
+  DOI: 10.1111/j.1365-2656.2008.01390.x
+  ISSN: 0021-8790, 1365-2656
+  issue: '4'
+  issued:
+  - year: 2008
+    month: 7
+  language: en
+  page: 802-813
+  source: DOI.org (Crossref)
+  title: A working guide to boosted regression trees
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2008.01390.x
+  volume: '77'
+- id: Heo2022
+  accessed:
+  - year: 2022
+    month: 11
+    day: 1
+  author:
+  - family: Heo
+    given: Namjoo
+  - family: Leopold
+    given: Donald J
+  - family: Lomolino
+    given: Mark V
+  - family: Yun
+    given: Seona
+  - family: Fernando
+    given: Danilo D
+  citation-key: Heo2022
+  container-title: Annals of Botany
+  DOI: 10.1093/aob/mcac129
+  ISSN: 0305-7364, 1095-8290
+  issued:
+  - year: 2022
+    month: 10
+    day: 23
+  language: en
+  page: mcac129
+  source: DOI.org (Crossref)
+  title: Global and regional drivers of abundance patterns in the hart's tongue fern
+    complex (Aspleniaceae)
+  type: article-journal
+  URL: https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcac129/6770098
+- id: Legendre1993
+  accessed:
+  - year: 2022
+    month: 12
+    day: 7
+  author:
+  - family: Legendre
+    given: Pierre
+  citation-key: Legendre1993
+  container-title: Ecology
+  DOI: 10.2307/1939924
+  ISSN: 00129658
+  issue: '6'
+  issued:
+  - year: 1993
+    month: 9
+  language: en
+  page: 1659-1673
+  source: DOI.org (Crossref)
+  title: 'Spatial Autocorrelation: Trouble or New Paradigm?'
+  title-short: Spatial Autocorrelation
+  type: article-journal
+  URL: http://doi.wiley.com/10.2307/1939924
+  volume: '74'
