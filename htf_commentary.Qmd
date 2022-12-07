@@ -12,36 +12,47 @@ format:
     reference-doc: custom-reference.docx
 ---
 
+Joel H. Nitta^1,\*^ and Eric Schuettpelz^2^
+
+^1^Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan
+
+^2^Department of Botany, National Museum of Natural History, Smithsonian Institution, Washington, DC, USA
+
+\* **Corresponding author details:**  
+Joel H. Nitta, joelnitta@gmail.com
+
+**Key words:** abundance, *Asplenium*, conservation, fern, GBIF, machine learning
+
 We live in an era of unprecedented human-driven extinction and ecological disruption.
-Any conservation policy seeking to mitigate this damage depends on documenting biodiversity while at the same time determining the processes that generate it.
+Any conservation policy seeking to mitigate this damage depends on documenting biodiversity while at the same time determining the processes that generate it [@Smith1993c].
 This endeavour is extremely difficult due to the large amounts of data required and because of the complex and intertwined nature of ecology; we can rarely ascribe one predominant effect that determines the distribution of species.
 In this issue of *Annals of Botany*, @Heo2022 combine dense sampling on a global scale with recently developed machine learning methods to gain insight into the processes governing abundance in *Asplenium scolopendrium* L., or Hart's Tongue Fern (HTF).
-Abundance is a key parameter for understanding the distribution of biodiversity, as it governs the existence of local populations and ultimately species, and gaining a better understanding of the processes governing abundance is critical to conserving biodiversity in the Anthropocene.
+Abundance is a key parameter for understanding the distribution of biodiversity, as it governs the existence of local populations and ultimately species, and gaining a better understanding of the processes governing abundance is critical to conserving biodiversity in the Anthropocene [@Brown1995].
 
 HTF is a widely distributed fern species complex with three major centers, in Europe, North America, and Asia.
 Populations in each area belong to four intraspecific taxa: *A. scolopendrium* subsp. *scolopendrium* and *A. scolopendrium* subsp. *antri-jovis* in Europe, *A. scolopendrium* var. *americanum* and *A. scolopendrium* var. *lindenii* in North America, and *A. komarovii* in East Asia.
 HTF shows different patterns of abundance in region, with patchily distributed, smaller populations in North America, more continuously distributed populations in Europe, and moderate population densities in Asia.
-A much smaller population center in New Zealand is likely due to recent introduction and naturalization.
+A much smaller population center in New Zealand is likely due to recent introduction and naturalization [@Brownsey2017].
 HTF has been well collected and documented, with thousands of occurrence records available in GBIF.
 Thus, HTF is an excellent system for understanding the processes affecting abundance of species on a global as well as local level.
 
 <!-- Integration across scales -->
 
-It is likely that processes occurring simultaneously at multiple scales interact to determine abundance.
-At broad (global) scales, climate change operates to shift species distributions primarily along latitudinal gradients.
-Changes in land use by humans also operates to influence species distributions at large scales.
-Within these larger forces, processes acting at the regional to local scale such as distribution of soil type and local climate further influence species distribution and abundance.
+It is likely that processes occurring simultaneously at multiple scales interact to determine abundance [@Brown1984].
+At broad (global) scales, climate change operates to shift species distributions primarily along latitudinal gradients [@Chen2011].
+Changes in land use by humans also operates to influence species distributions at large scales. [@Daskalova2020; @Williams2020]
+Within these larger forces, processes acting at the regional to local scale such as distribution of soil type and local climate further influence species distribution and abundance [@Lafleur2010].
 The complex and interwoven nature of these processes has long been an impediment to understanding how they function in detail.
 However, @Heo2022 were able to use a type of powerful machine learning, boosted regression tree (BRT) models, in combination with their dense sampling to overcome this difficulty.
 
 <!-- A different paradigm for understanding ecology -->
 
-Mathematical models have long been a key tool for understanding ecology.
+Mathematical models, in particular linear regression models, have long been a key tool for understanding ecology [@Bolker2009a].
 Classic models in ecology typically start by defining a reasonable model for a given phenomenon, then seek to fit the parameters of the model to the data.
 While such classic models are straightforward to interpret, they often have relatively low explanatory power.
-This is due to the extremely complex nature of ecology, which includes many interacting processes across multiple scales.
+This is due to the extremely complex nature of ecology, which includes many interacting processes across multiple scales [@Graham2003].
 Machine learning approaches, on the other hand, do not start from a particular model; rather, they attempt to learn the relationship between predictors and response variables via iterative algorithms.
-While this is a promising approach for understanding ecological processes, it has not been widely applied in ecology, perhaps due to the dominant statistical paradigm that has focused on explanation rather than prediction.
+While this is a promising approach for understanding ecological processes, it has not been widely applied in ecology, perhaps due to the dominant statistical paradigm that has focused on explanation rather than prediction [@Elith2008].
 @Heo2022 used a type of machine learning called boosted regression trees (BRT), which combine a large number of simple regression trees to obtain a robust prediction [@Elith2008].
 Their BRT model included variables at both global (e.g., magnitude of past climate change, anthropogenic impacts) and regional (topography, edaphic conditions, local climate) scales.
 The BRT model is well suited such an analysis including interacting variables at multiple scales as it is non-parametric and insensitive to outliers; furthermore, any potential interactions are accounted for during the learning process and do not need to be specified *a-priori*.
@@ -49,7 +60,7 @@ Since HTF was already known to show different distribution patterns between regi
 
 <!-- Different continents, different processes -->
 
-On a global scale, @Heo2022 find that HTF is mostly restricted to a single biome, temperate broadleaf and mixed forests.
+On a global scale, @Heo2022 found that HTF is mostly restricted to a single biome, temperate broadleaf and mixed forests.
 Furthermore, their niche modeling analysis showed that this species complex has likely shifted its range from lower to higher latitudes since the last glacial maximum (ca. 21ka).
 While these common global processes, their BRT model revealed processes operating at finer scales that in some cases differ between regions.
 
@@ -81,6 +92,6 @@ Therefore, it is unclear to what extent the results were influenced by the spati
 Future studies using the BRT model should explicitly check for spatial autocorrelation and handle it appropriately if detected.
 
 <!-- Conclusion -->
-The study of @Heo2022 is an clear example of the insights that can be gained from the application of machine learning to large biodiversity datasets.
+Methodological shortcomings notwithstanding, the study of @Heo2022 is a clear example of the insights that can be gained from the application of machine learning to large biodiversity datasets.
 Such investigations will surely become both more insightful as datasets and analytical methods grow.
 Indeed, they are needed more urgently than ever before as life on this planet is increasingly confronted with the effects of unchecked economic growth that has come at the cost of the environment.
