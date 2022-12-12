@@ -1,24 +1,25 @@
+---
 references:
 - id: Bolker2009a
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Bolker
-    given: Benjamin M.
-  - family: Brooks
-    given: Mollie E.
-  - family: Clark
-    given: Connie J.
-  - family: Geange
-    given: Shane W.
-  - family: Poulsen
-    given: John R.
-  - family: Stevens
-    given: M. Henry H.
-  - family: White
-    given: Jada-Simone S.
+    - family: Bolker
+      given: Benjamin M.
+    - family: Brooks
+      given: Mollie E.
+    - family: Clark
+      given: Connie J.
+    - family: Geange
+      given: Shane W.
+    - family: Poulsen
+      given: John R.
+    - family: Stevens
+      given: M. Henry H.
+    - family: White
+      given: Jada-Simone S.
   citation-key: Bolker2009a
   container-title: Trends in Ecology & Evolution
   container-title-short: Trends in Ecology & Evolution
@@ -26,203 +27,239 @@ references:
   ISSN: 0169-5347
   issue: '3'
   issued:
-  - year: 2009
-    month: 3
-    day: 1
+    - year: 2009
+      month: 3
+      day: 1
   language: en
   page: 127-135
   source: ScienceDirect
-  title: 'Generalized linear mixed models: a practical guide for ecology and evolution'
+  title: 'Generalized linear mixed models: A practical guide for ecology and evolution'
   title-short: Generalized linear mixed models
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S0169534709000196
   volume: '24'
+
+- id: Brown1977
+  accessed:
+    - year: 2022
+      month: 12
+      day: 12
+  author:
+    - family: Brown
+      given: James H.
+    - family: Kodric-Brown
+      given: Astrid
+  citation-key: Brown1977
+  container-title: Ecology
+  DOI: 10.2307/1935620
+  ISSN: 0012-9658
+  issue: '2'
+  issued:
+    - year: 1977
+  page: 445-449
+  publisher: Ecological Society of America
+  source: JSTOR
+  title: 'Turnover rates in insular biogeography: Effect of immigration on extinction'
+  title-short: Turnover Rates in Insular Biogeography
+  type: article-journal
+  URL: https://www.jstor.org/stable/1935620
+  volume: '58'
+
 - id: Brown1984
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Brown
-    given: James H.
+    - family: Brown
+      given: James H.
   citation-key: Brown1984
   container-title: The American Naturalist
   DOI: 10.1086/284267
   ISSN: 0003-0147
   issue: '2'
   issued:
-  - year: 1984
+    - year: 1984
   page: 255-279
   publisher: '[University of Chicago Press, American Society of Naturalists]'
   source: JSTOR
-  title: On the Relationship between Abundance and Distribution of Species
+  title: On the relationship between abundance and distribution of species
   type: article-journal
   URL: https://www.jstor.org/stable/2461494
   volume: '124'
+
 - id: Brown1995
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Brown
-    given: James H.
-  - family: Mehlman
-    given: David W.
-  - family: Stevens
-    given: George C.
+    - family: Brown
+      given: James H.
+    - family: Mehlman
+      given: David W.
+    - family: Stevens
+      given: George C.
   citation-key: Brown1995
   container-title: Ecology
   DOI: 10.2307/1941678
-  ISSN: 00129658
+  ISSN: '00129658'
   issue: '7'
   issued:
-  - year: 1995
-    month: 10
+    - year: 1995
+      month: 10
   language: en
   page: 2028-2043
   source: DOI.org (Crossref)
-  title: Spatial Variation in Abundance
+  title: Spatial variation in abundance
   type: article-journal
   URL: http://doi.wiley.com/10.2307/1941678
   volume: '76'
+
 - id: Brownsey2017
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Brownsey
-    given: P. J.
-  - family: Perrie
-    given: L. R.
+    - family: Brownsey
+      given: P. J.
+    - family: Perrie
+      given: L. R.
   citation-key: Brownsey2017
   container-title: New Zealand Journal of Botany
   DOI: 10.1080/0028825X.2017.1313749
   ISSN: 0028-825X
   issue: '3'
   issued:
-  - year: 2017
-    month: 7
-    day: 3
+    - year: 2017
+      month: 7
+      day: 3
   note: '_eprint: https://doi.org/10.1080/0028825X.2017.1313749'
   page: 249-257
   publisher: Taylor & Francis
   source: Taylor and Francis+NEJM
-  title: 'Taxonomic notes on the New Zealand flora: lectotypes in the fern family
-    Aspleniaceae'
+  title: >-
+    Taxonomic notes on the New Zealand flora: Lectotypes in the fern family
+    Aspleniaceae
   title-short: Taxonomic notes on the New Zealand flora
   type: article-journal
   URL: https://doi.org/10.1080/0028825X.2017.1313749
   volume: '55'
+
 - id: Chen2011
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Chen
-    given: I-Ching
-  - family: Hill
-    given: Jane K.
-  - family: Ohlemüller
-    given: Ralf
-  - family: Roy
-    given: David B.
-  - family: Thomas
-    given: Chris D.
+    - family: Chen
+      given: I-Ching
+    - family: Hill
+      given: Jane K.
+    - family: Ohlemüller
+      given: Ralf
+    - family: Roy
+      given: David B.
+    - family: Thomas
+      given: Chris D.
   citation-key: Chen2011
   container-title: Science
   DOI: 10.1126/science.1206432
   issue: '6045'
   issued:
-  - year: 2011
-    month: 8
-    day: 19
+    - year: 2011
+      month: 8
+      day: 19
   page: 1024-1026
   publisher: American Association for the Advancement of Science
   source: science.org (Atypon)
-  title: Rapid Range Shifts of Species Associated with High Levels of Climate Warming
+  title: Rapid range shifts of species associated with high levels of climate warming
   type: article-journal
   URL: https://www.science.org/doi/10.1126/science.1206432
   volume: '333'
+
 - id: Crase2012
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Crase
-    given: Beth
-  - family: Liedloff
-    given: Adam C.
-  - family: Wintle
-    given: Brendan A.
+    - family: Crase
+      given: Beth
+    - family: Liedloff
+      given: Adam C.
+    - family: Wintle
+      given: Brendan A.
   citation-key: Crase2012
   container-title: Ecography
   container-title-short: Ecography
   DOI: 10.1111/j.1600-0587.2011.07138.x
-  ISSN: 09067590
+  ISSN: '09067590'
   issue: '10'
   issued:
-  - year: 2012
-    month: 10
+    - year: 2012
+      month: 10
   language: en
   page: 879-888
   source: DOI.org (Crossref)
-  title: A new method for dealing with residual spatial autocorrelation in species
+  title: >-
+    A new method for dealing with residual spatial autocorrelation in species
     distribution models
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2011.07138.x
   volume: '35'
+
 - id: Daskalova2020
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Daskalova
-    given: Gergana N.
-  - family: Myers-Smith
-    given: Isla H.
-  - family: Bjorkman
-    given: Anne D.
-  - family: Blowes
-    given: Shane A.
-  - family: Supp
-    given: Sarah R.
-  - family: Magurran
-    given: Anne E.
-  - family: Dornelas
-    given: Maria
+    - family: Daskalova
+      given: Gergana N.
+    - family: Myers-Smith
+      given: Isla H.
+    - family: Bjorkman
+      given: Anne D.
+    - family: Blowes
+      given: Shane A.
+    - family: Supp
+      given: Sarah R.
+    - family: Magurran
+      given: Anne E.
+    - family: Dornelas
+      given: Maria
   citation-key: Daskalova2020
   container-title: Science
   DOI: 10.1126/science.aba1289
   issue: '6497'
   issued:
-  - year: 2020
-    month: 6
-    day: 19
+    - year: 2020
+      month: 6
+      day: 19
   page: 1341-1347
   publisher: American Association for the Advancement of Science
   source: science.org (Atypon)
-  title: Landscape-scale forest loss as a catalyst of population and biodiversity
+  title: >-
+    Landscape-scale forest loss as a catalyst of population and biodiversity
     change
   type: article-journal
   URL: https://www.science.org/doi/10.1126/science.aba1289
   volume: '368'
+
 - id: Elith2008
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Elith
-    given: J.
-  - family: Leathwick
-    given: J. R.
-  - family: Hastie
-    given: T.
+    - family: Elith
+      given: J.
+    - family: Leathwick
+      given: J. R.
+    - family: Hastie
+      given: T.
   citation-key: Elith2008
   container-title: Journal of Animal Ecology
   container-title-short: J Anim Ecology
@@ -230,8 +267,8 @@ references:
   ISSN: 0021-8790, 1365-2656
   issue: '4'
   issued:
-  - year: 2008
-    month: 7
+    - year: 2008
+      month: 7
   language: en
   page: 802-813
   source: DOI.org (Crossref)
@@ -239,160 +276,166 @@ references:
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2008.01390.x
   volume: '77'
+
 - id: Graham2003
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Graham
-    given: Michael H.
+    - family: Graham
+      given: Michael H.
   citation-key: Graham2003
   container-title: Ecology
   DOI: 10.1890/02-3114
   ISSN: 0012-9658
   issue: '11'
   issued:
-  - year: 2003
+    - year: 2003
   page: 2809-2815
   publisher: Ecological Society of America
   source: JSTOR
-  title: Confronting Multicollinearity in Ecological Multiple Regression
+  title: Confronting multicollinearity in ecological multiple regression
   type: article-journal
   URL: https://www.jstor.org/stable/3449952
   volume: '84'
+
 - id: Heo2022
   accessed:
-  - year: 2022
-    month: 11
-    day: 1
+    - year: 2022
+      month: 11
+      day: 1
   author:
-  - family: Heo
-    given: Namjoo
-  - family: Leopold
-    given: Donald J
-  - family: Lomolino
-    given: Mark V
-  - family: Yun
-    given: Seona
-  - family: Fernando
-    given: Danilo D
+    - family: Heo
+      given: Namjoo
+    - family: Leopold
+      given: Donald J
+    - family: Lomolino
+      given: Mark V
+    - family: Yun
+      given: Seona
+    - family: Fernando
+      given: Danilo D
   citation-key: Heo2022
   container-title: Annals of Botany
   DOI: 10.1093/aob/mcac129
   ISSN: 0305-7364, 1095-8290
   issued:
-  - year: 2022
-    month: 10
-    day: 23
+    - year: 2022
+      month: 10
+      day: 23
   language: en
-  page: mcac129
   source: DOI.org (Crossref)
-  title: Global and regional drivers of abundance patterns in the hart's tongue fern
+  title: >-
+    Global and regional drivers of abundance patterns in the hart's tongue fern
     complex (Aspleniaceae)
   type: article-journal
   URL: https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcac129/6770098
+
 - id: Lafleur2010
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Lafleur
-    given: Benoit
-  - family: Paré
-    given: David
-  - family: Munson
-    given: Alison D.
-  - family: Bergeron
-    given: Yves
+    - family: Lafleur
+      given: Benoit
+    - family: Paré
+      given: David
+    - family: Munson
+      given: Alison D.
+    - family: Bergeron
+      given: Yves
   citation-key: Lafleur2010
   container-title: Environmental Reviews
   container-title-short: Environ. Rev.
   DOI: 10.1139/A10-013
   ISSN: 1181-8700
-  issue: NA
   issued:
-  - year: 2010
-    month: 12
+    - year: 2010
+      month: 12
   page: 279-289
   publisher: NRC Research Press
   source: cdnsciencepub.com (Atypon)
-  title: 'Response of northeastern North American forests to climate change: Will
-    soil conditions constrain tree species migration?'
+  title: >-
+    Response of northeastern North American forests to climate change: Will soil
+    conditions constrain tree species migration?
   title-short: Response of northeastern North American forests to climate change
   type: article-journal
   URL: https://cdnsciencepub.com/doi/10.1139/A10-013
   volume: '18'
+
 - id: Legendre1993
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Legendre
-    given: Pierre
+    - family: Legendre
+      given: Pierre
   citation-key: Legendre1993
   container-title: Ecology
   DOI: 10.2307/1939924
-  ISSN: 00129658
+  ISSN: '00129658'
   issue: '6'
   issued:
-  - year: 1993
-    month: 9
+    - year: 1993
+      month: 9
   language: en
   page: 1659-1673
   source: DOI.org (Crossref)
-  title: 'Spatial Autocorrelation: Trouble or New Paradigm?'
+  title: 'Spatial autocorrelation: Trouble or new paradigm?'
   title-short: Spatial Autocorrelation
   type: article-journal
   URL: http://doi.wiley.com/10.2307/1939924
   volume: '74'
-- id: Smith1993c
+
+- id: Smith1993b
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Smith
-    given: T. B.
-  - family: Bruford
-    given: M. W.
-  - family: Wayne
-    given: R. K.
-  citation-key: Smith1993c
+    - family: Smith
+      given: T. B.
+    - family: Bruford
+      given: M. W.
+    - family: Wayne
+      given: R. K.
+  citation-key: Smith1993b
   container-title: Biodiversity Letters
   container-title-short: Biodiversity Letters
   DOI: 10.2307/2999740
-  ISSN: 09679952
+  ISSN: '09679952'
   issue: '6'
   issued:
-  - year: 1993
-    month: 11
-  page: '164'
+    - year: 1993
+      month: 11
+  page: 164-167
   source: DOI.org (Crossref)
-  title: 'The Preservation of Process: The Missing Element of Conservation Programs'
+  title: 'The preservation of process: The missing element of conservation Programs'
   title-short: The Preservation of Process
   type: article-journal
   URL: https://www.jstor.org/stable/2999740?origin=crossref
   volume: '1'
+
 - id: Williams2020
   accessed:
-  - year: 2022
-    month: 12
-    day: 7
+    - year: 2022
+      month: 12
+      day: 7
   author:
-  - family: Williams
-    given: Jessica J.
-  - family: Newbold
-    given: Tim
+    - family: Williams
+      given: Jessica J.
+    - family: Newbold
+      given: Tim
   citation-key: Williams2020
   container-title: Diversity and Distributions
   DOI: 10.1111/ddi.12999
   ISSN: 1472-4642
   issue: '1'
   issued:
-  - year: 2020
+    - year: 2020
   language: en
   note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12999'
   page: 76-92
